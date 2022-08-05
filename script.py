@@ -5,8 +5,8 @@ from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 import gspread
 
-ACCOUNT_SID = "ACea2e35ef47bd69bc318faf36ee5d43c8"
-AUTH_TOKEN = "4d23af8229b02a59c4e7d0f3d8793c2b"
+ACCOUNT_SID = "" # Enter the twilio account SID
+AUTH_TOKEN = ""  # Enter the twilio account auth token
 base_url = "https://api.twilio.com"
 client = Client(ACCOUNT_SID, AUTH_TOKEN)
 messages = client.messages.list()
